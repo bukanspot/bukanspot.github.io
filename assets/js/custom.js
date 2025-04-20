@@ -1,1 +1,0 @@
-document.getElementById("age").innerHTML = new Date().getFullYear() - 2001;
