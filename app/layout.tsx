@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 		siteName: 'Indra Wahyu - Portfolio',
 		images: [
 			{
-				url: '/spot.png',
+				url: 'https://www.indrawahyu.my.id/spot.png',
 				width: 1200,
 				height: 630,
 				alt: 'Indra Wahyu - DevOps Engineer',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
 		title: 'Indra Wahyu - DevOps Engineer',
 		description: 'I am interested in Server Management, Computer Networks, and Embedded Systems. My dream is focus on continuous learning and a dedication to excellence to combine these skills into an innovative products.',
 		creator: '@bukanspot',
-		images: ['/spot.png'],
+		images: ['https://www.indrawahyu.my.id/spot.png'],
 	},
 	robots: {
 		index: true,
