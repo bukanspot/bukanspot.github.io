@@ -28,13 +28,12 @@ export default function HeroSection() {
 						<p className="text-gray-400 mb-8">I am interested in Server Management, Computer Networks, and Embedded Systems. My dream is focus on continuous learning and a dedication to excellence to combine these skills into an innovative products.</p>
 						<p className="text-green-500">$ skills</p>
 						<div className="flex flex-wrap gap-2 mt-2">
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Shell</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Python</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Arduino</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Mikrotik</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Docker</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Ansible</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">ZTNA</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Shell/Python Scripting</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">C++ for Arduino/ESP32</span>
 						</div>
 					</div>
 				</motion.div>

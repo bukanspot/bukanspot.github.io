@@ -17,12 +17,12 @@ export default function SystemArchitecture() {
 							description: 'Designed and implemented a Zero Trust Network Access solution for secure remote access to internal applications',
 							details: [
 								'Developed a custom ZTNA solution using open-source tools',
-								'Integrated with existing identity providers for seamless authentication',
-								'Implemented role-based access control (RBAC) for granular permissions',
-								'Conducted security audits and penetration testing to ensure robustness',
-								'Reduced attack surface by 70% and improved user experience',
+								'Quickly generate secure links to local services for temporary sharing with external parties',
+								'Adapt the platform look and feel to align with corporate identity including use of custom domain and subdomain',
+								'Implement IP restrictions, token-based authentication, and dynamic session management',
+								'Support legacy applications by providing basic authentication mechanisms',
 							],
-							tech: ['Docker', 'OpenZiti', 'Zrok', 'Postgress', 'Shell', 'Ansible'],
+							tech: ['Shell', 'OpenZiti', 'Zrok', 'Nginx'],
 						},
 						{
 							title: 'Dockerize Application',
@@ -34,7 +34,31 @@ export default function SystemArchitecture() {
 								'Automated deployment using CI/CD pipelines',
 								'Reduced deployment time from hours to minutes',
 							],
-							tech: ['Docker', 'Docker Compose', 'Gitlab'],
+							tech: ['Docker', 'Docker Compose', 'Gitlab CI'],
+						},
+						{
+							title: 'Home Automation',
+							description: 'Developed a home automation system using ESP32 and Firebase for real-time control and monitoring',
+							details: [
+								'Integrated with various sensors for automation',
+								'Designed and implemented a custom PCB for ESP32',
+								'Developed firmware using C++ for real-time control',
+								'Use Firebase for data storage and real-time updates',
+								'Created a mobile app for remote control and monitoring',
+							],
+							tech: ['C++', 'ESP32', 'Firebase', 'Android Studio'],
+						},
+						{
+							title: 'Building Servers',
+							description: 'Designed and implemented an on-premise server infrastructure to improve data security and cost efficiency',
+							details: [
+								'Designed network topology and IP addressing scheme',
+								'Installed and configured Mikrotik router for network management',
+								'Set up virtualization using Proxmox for multiple Virtual Machines',
+								'Configured Firewalls and OpenVPN for secure remote access to the network',
+								'Use Ansible for automated server management and configuration',
+							],
+							tech: ['Mikrotik', 'Proxmox', 'OpenVPN', 'Ansible'],
 						},
 					].map((project, index) => (
 						<motion.div
@@ -49,9 +73,11 @@ export default function SystemArchitecture() {
 							<p className="text-gray-400 mb-6">{project.description}</p>
 							<div className="mb-6">
 								<h4 className="text-lg font-semibold mb-2">Key Achievements:</h4>
-								<ul className="list-disc list-inside space-y-2 text-gray-300">
+								<ul className="list-disc pl-5 space-y-2 text-gray-300">
 									{project.details.map((detail, i) => (
-										<li key={i}>{detail}</li>
+										<li key={i} className="pl-2 text-gray-300">
+											<span>{detail}</span>
+										</li>
 									))}
 								</ul>
 							</div>

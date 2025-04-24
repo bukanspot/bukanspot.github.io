@@ -41,6 +41,32 @@ export default function TechnicalMetrics() {
 									<li>• Integrated with monitoring tools</li>
 								</ul>
 							</motion.div>
+							<motion.div
+								initial={{ opacity: 0, scale: 0.95 }}
+								whileInView={{ opacity: 1, scale: 1 }}
+								viewport={{ once: true }}
+								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
+							>
+								<h4 className="text-lg font-semibold text-gray-300">Network Security</h4>
+								<ul className="mt-2 space-y-2 text-gray-400">
+									<li>• Integrated with WAF & IDS tools</li>
+									<li>• Implemented ZTNA for secure access</li>
+									<li>• Reduced attack surface by 70%</li>
+								</ul>
+							</motion.div>
+							<motion.div
+								initial={{ opacity: 0, scale: 0.95 }}
+								whileInView={{ opacity: 1, scale: 1 }}
+								viewport={{ once: true }}
+								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
+							>
+								<h4 className="text-lg font-semibold text-gray-300">Embedded Device</h4>
+								<ul className="mt-2 space-y-2 text-gray-400">
+									<li>• Enhanced user convenience</li>
+									<li>• Real-time monitoring and control</li>
+									<li>• Improved energy efficiency by 30%</li>
+								</ul>
+							</motion.div>
 						</div>
 					</div>
 				</div>
