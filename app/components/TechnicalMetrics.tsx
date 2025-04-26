@@ -11,9 +11,7 @@ export default function TechnicalMetrics() {
 				</motion.h2>
 
 				<div className="grid grid-cols-1 gap-12">
-					{/* Infrastructure & DevOps */}
 					<div>
-						{/* <h3 className="text-xl font-semibold mb-6 text-green-400">Infrastructure & DevOps</h3> */}
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 							<motion.div
 								initial={{ opacity: 0, scale: 0.95 }}
@@ -21,11 +19,11 @@ export default function TechnicalMetrics() {
 								viewport={{ once: true }}
 								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
 							>
-								<h4 className="text-lg font-semibold text-gray-300">Cloud Infrastructure</h4>
+								<h4 className="text-lg font-semibold text-gray-300">Server Infrastructure</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Zero-downtime deployments</li>
-									<li>• Implemented Infrastructure as Code (IaC)</li>
-									<li>• Implemented auto-scaling for peak loads</li>
+									<li>• Implemented Infrastructure as Code</li>
+									<li>• Implemented auto-scaling peak loads</li>
+									<li>• Reduce server costs by 50%</li>
 								</ul>
 							</motion.div>
 							<motion.div
@@ -36,9 +34,9 @@ export default function TechnicalMetrics() {
 							>
 								<h4 className="text-lg font-semibold text-gray-300">CI/CD Pipeline</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
+									<li>• Zero-downtime deployments</li>
 									<li>• Automated testing and deployment</li>
 									<li>• Reduced deployment time by 80%</li>
-									<li>• Integrated with monitoring tools</li>
 								</ul>
 							</motion.div>
 							<motion.div
@@ -60,7 +58,7 @@ export default function TechnicalMetrics() {
 								viewport={{ once: true }}
 								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
 							>
-								<h4 className="text-lg font-semibold text-gray-300">Embedded Device</h4>
+								<h4 className="text-lg font-semibold text-gray-300">Smart Device</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
 									<li>• Enhanced user convenience</li>
 									<li>• Real-time monitoring and control</li>
