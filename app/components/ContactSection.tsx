@@ -140,27 +140,27 @@ export default function ContactSection() {
 							{activeTab === 'about' && (
 								<div className='p-8'>
 									<h2 className="text-3xl font-bold mb-4 text-gray-200">My Artifact</h2>
-									<p className="text-gray-400 mb-4">Beyond the visuals and final outcomes showcased here, I also maintain several dedicated sites where I dive deeper into the <i>how</i> and <i>why</i> behind each project. These spaces are where I document not just what I build, but how I think—capturing processes, iterations, challenges, and the small discoveries that shape my work. It's my way of staying transparent, staying curious, and staying connected with anyone who’s interested in the journey, not just the destination.</p>
+									<p className="text-gray-400 mb-4">Beyond the visuals and final outcomes showcased here, I also maintain several dedicated sites where I dive deeper into the <i>how</i> and <i>why</i> behind each project. These spaces are where I document not just what I build, but how I think—capturing processes, iterations, challenges, and the small discoveries that shape my work. It&apos;s my way of staying transparent, staying curious, and staying connected with anyone who&apos;s interested in the journey, not just the destination.</p>
 									<p className="text-green-500 mt-4 mb-4">~ curl
 										<a href="https://bukanspot.gitbook.io"> bukanspot.gitbook.io</a>
 									</p>
-									<p className='text-gray-400 mt-4 mb-4'>GitBook is where I document various aspects of my work—from building embedded systems and configuring networks to deploying applications. What started as a personal knowledge base has gradually evolved into a publicly accessible space. Just a heads-up: it’s more of a personal notebook than a polished tutorial hub, so while the content is honest and practical, it might not always be picture-perfect.</p>
+									<p className='text-gray-400 mt-4 mb-4'>GitBook is where I document various aspects of my work—from building embedded systems and configuring networks to deploying applications. What started as a personal knowledge base has gradually evolved into a publicly accessible space. Just a heads-up: it&apos;s more of a personal notebook than a polished tutorial hub, so while the content is honest and practical, it might not always be picture-perfect.</p>
 									<p className="text-green-500 mt-4 mb-4">~ curl
 										<a href="https://dev.to/bukanspot"> dev.to/bukanspot</a>
 									</p>
-									<p className='text-gray-400 mt-4 mb-4'>On dev.to, I usually document the unexpected bumps along the road—errors I’ve encountered while coding, odd behaviors during Linux adventures, or deployment quirks that took a bit too long to solve. The topics can be pretty random, but they all orbit around one thing: solving real-world problems with code, commands, and curiosity.</p>
+									<p className='text-gray-400 mt-4 mb-4'>On dev.to, I usually document the unexpected bumps along the road—errors I&apos;ve encountered while coding, odd behaviors during Linux adventures, or deployment quirks that took a bit too long to solve. The topics can be pretty random, but they all orbit around one thing: solving real-world problems with code, commands, and curiosity.</p>
 									<p className="text-green-500 mt-4 mb-4">~ curl
 										<a href="https://reddit.com/u/bukanspot/"> reddit.com/u/bukanspot</a>
 									</p>
-									<p className='text-gray-400 mt-4 mb-4'>On Reddit, I jot down quick snippets, code examples, and the occasional personal rant—think of it as my public digital notebook. It's where I document useful one-liners, Linux commands with brief explanations, or odd problems I’ve run into. The posts are short by design: just enough to help future-me (or anyone else) quickly recall how something works, or why it didn’t.</p>
+									<p className='text-gray-400 mt-4 mb-4'>On Reddit, I jot down quick snippets, code examples, and the occasional personal rant—think of it as my public digital notebook. It&apos;s where I document useful one-liners, Linux commands with brief explanations, or odd problems I&apos;ve run into. The posts are short by design: just enough to help future-me (or anyone else) quickly recall how something works, or why it didn&apos;t.</p>
 									<p className="text-green-500 mt-4 mb-4">~ curl
 										<a href="https://bukanspot.medium.com"> bukanspot.medium.com</a>
 									</p>
-									<p className='text-gray-400 mt-4 mb-4'>Medium is where I shift gears a bit—it's less about fixing bugs and more about reflecting on experiences. I use it to share personal takes on the tools and products I’ve used, like impressions after spending time with a particular operating system, or just random tech-related stories that feel worth telling. It’s my space for storytelling with a technical twist.</p>
+									<p className='text-gray-400 mt-4 mb-4'>Medium is where I shift gears a bit—it&apos;s less about fixing bugs and more about reflecting on experiences. I use it to share personal takes on the tools and products I&apos;ve used, like impressions after spending time with a particular operating system, or just random tech-related stories that feel worth telling. It&apos;s my space for storytelling with a technical twist.</p>
 									<p className="text-green-500 mt-4 mb-4">~ curl
 										<a href="https://bukanspot.blogspot.com"> bukanspot.blogspot.com</a>
 									</p>
-									<p className='text-gray-400 mt-4 mb-4'>Blogger is my go-to place for writing tutorials that don’t always fit the mold. Unlike my other platforms that focus heavily on code or servers, this space is for everything else I feel is worth documenting—random how-tos, helpful guides, and everyday discoveries that deserve a spot on the record, even if they fall outside the usual tech stack.</p>
+									<p className='text-gray-400 mt-4 mb-4'>Blogger is my go-to place for writing tutorials that don&apos;t always fit the mold. Unlike my other platforms that focus heavily on code or servers, this space is for everything else I feel is worth documenting—random how-tos, helpful guides, and everyday discoveries that deserve a spot on the record, even if they fall outside the usual tech stack.</p>
 								</div>
 							)}
 						</div>
