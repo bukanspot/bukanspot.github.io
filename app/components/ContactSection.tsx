@@ -32,7 +32,6 @@ export default function ContactSection() {
 					<div className="absolute inset-0 bg-gradient-to-r from-green-500/5 to-blue-500/5" />
 					<div className="relative z-10">
 						<div className="font-mono">
-							{/* Tabs */}
 							<div className="flex gap-2 mb-4 border-b border-gray-700 relative z-20">
 							<div className="flex items-center gap-2 mb-2 mx-4">
 								<div className="w-3 h-3 rounded-full bg-red-500" />
@@ -54,8 +53,6 @@ export default function ContactSection() {
 								))}
 							</div>
 
-
-							{/* Tab Content */}
 							{activeTab === 'contact' && (
 								<div className='p-8'>
 									<h2 className="text-3xl font-bold mb-4 text-gray-200">Let&apos;s Connect</h2>
